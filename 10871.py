@@ -1,21 +1,21 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 11 21:46:13 2022
 
-@author: Doshite
-"""
+a,b,c = map(int,input().split())
 
-n,x= map(int,input().split())
-seq = list(map(int,input().split()))
+llist = []
 
-result = []
+llist.append(a)
+llist.append(b)
+llist.append(c)
 
-for i in seq:
-    if i < x:
-        result.append(i)
-    else:
-        pass
+llist.sort()
 
-for i in result:
-    print(i,end=" ")
-    
+print(llist[1])
+
+
+#다른풀이
+'''
+iint = input().split()
+
+iint.split()
+print(iint(-2))
+'''
